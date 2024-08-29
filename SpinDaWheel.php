@@ -17,6 +17,9 @@ while ($total < 500 && $t<20){
         "AAB", "ABA", "BAA", "ABB", "BBA", "BAB", "BCC", "CBC", "CCB", "ACC", "CAC", "CCA", "CAA", "BBC", "CBB", "AAC", "BCB", "ACA"=> 50,
         "ABC", "CAB", "BAC", "ACB", "CBA", "BCA" => 0,
     };
+
+    array_push($totalarray, $temp);
+    array_push($totalarray, $return_value);
     $temp = "";
 }
-echo($total);
+print_r($totalarray);
