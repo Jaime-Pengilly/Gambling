@@ -1,7 +1,6 @@
 <?php
 $outCome = ['A' =>"A", 'B'=>"B", 'C'=>"C"];
 $temp = "";
-$space =" ";
 $i = 0;
 $t = 0;
 $return = 0;
